@@ -9,12 +9,14 @@ html,
 body {
     height: 100%;
     width: 100%;
+     overflow-x: hidden;
 }
 
 main{
     height: 100%;
     width: 100%;
     background: linear-gradient(to right,#fcc60c 60%,#fbe8b5 40%);
+    
     
 }
 nav{
@@ -26,13 +28,13 @@ nav{
     padding: 30px 90px 10px 70px;
 }
 .logo{
-    width: 490px;
+    width: 20vw;
     height: 90%;
     cursor: pointer;
 
 }
 nav i{
-    font-size: 90px;
+    font-size: 3.5vw;
     margin-top: 40px;
     cursor: pointer;
 }
@@ -45,7 +47,7 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 110px 10px 230px;
+    padding: 5vw;
 }
 .pika-main{
     /* border: 1px solid red; */
@@ -58,28 +60,34 @@ section{
 }
 section div h3{
     font-family:sans-serif;
-    font-size: 38px;
+    font-size: 2vw;
     letter-spacing: 11px;
     color: #100a03;
     margin-left: 45px;
 
 }
 section div h1{
-    font-size: 280px;
+    font-size: 10vw;
     font-weight: 700;
     margin-left: 25px;
 
 }
 .pikachu{
     position: absolute;
-    left: 46%;
-    top: 10%;
-    height: 80%;
+    right: 18.5%;
+    top: 52%;
+    transform: translateY(-50%);
+
+    width: 50vw;
+    max-width: 35vw;
+    min-width: 300px;
+
+    height: auto;
 }
 
 .paragraph{
-    font-size: 40px;
-    width: 41%;
+    font-size:1.3vw;
+    width: 45%;
     font-weight: 500;
     color: #5d4c15;
     margin-left: 40px;
